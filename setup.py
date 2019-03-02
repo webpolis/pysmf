@@ -75,7 +75,7 @@ setup(
             include_dirs = include_dirs,
             libraries = libraries,
             library_dirs = library_dirs,
-            extra_compile_args = ['-Werror-implicit-function-declaration'],
+            extra_compile_args = [],
         )
     ],
     cmdclass = cmdclass,
