@@ -68,6 +68,7 @@ libraries = [
     'smf'
 ]
 library_dirs = [
+    'C:\msys64\mingw64\lib',
     'C:\libsmf\lib64', 
     'C:\libsmf\bin64'
 ]
