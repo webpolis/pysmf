@@ -55,9 +55,21 @@ else:
     extra_setup_opts = {}
 
 
-include_dirs = ['C:\libsmf\include']
-libraries = ['C:\libsmf\lib64\libsmf-0.dll']
-library_dirs = ['C:\libsmf\lib64', 'C:\libsmf\bin']
+include_dirs = [
+    'C:\msys64\mingw64\include', 
+    'C:\msys64\mingw64\include\glib-2.0',
+    'C:\msys64\mingw64\include\GL',
+    'C:\libsmf\include'
+]
+libraries = [
+    'C:\msys64\mingw64\bin\libgtk-3-0.dll', 
+    'C:\msys64\mingw64\bin\libglib-2.0-0.dll', 
+    'C:\libsmf\lib64\libsmf-0.dll'
+]
+library_dirs = [
+    'C:\libsmf\lib64', 
+    'C:\libsmf\bin'
+]
 
 
 setup(
