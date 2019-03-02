@@ -63,7 +63,7 @@ include_dirs = [
     'C:\libsmf\include'
 ]
 libraries = [
-    'gtk-3', 
+    #'gtk-3', 
     'glib-2.0', 
     'smf'
 ]
