@@ -65,11 +65,11 @@ include_dirs = [
 libraries = [
     'C:\msys64\mingw64\bin\libgtk-3-0.dll', 
     'C:\msys64\mingw64\bin\libglib-2.0-0.dll', 
-    'C:\libsmf\lib64\libsmf-0.dll'
+    'C:\libsmf\bin64\libsmf-0.dll'
 ]
 library_dirs = [
     'C:\libsmf\lib64', 
-    'C:\libsmf\bin'
+    'C:\libsmf\bin64'
 ]
 
 
