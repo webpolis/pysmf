@@ -55,11 +55,9 @@ else:
     extra_setup_opts = {}
 
 
-include_dirs = []
-libraries = []
-library_dirs = []
-
-pkgconfig('smf')
+include_dirs = ['C:\libsmf\include']
+libraries = ['C:\libsmf\lib64\libsmf-0.dll']
+library_dirs = ['C:\libsmf\lib64', 'C:\libsmf\bin']
 
 
 setup(
