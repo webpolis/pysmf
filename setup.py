@@ -56,9 +56,9 @@ else:
 
 
 include_dirs = [
-    'C:\msys64\mingw64\usr\include', 
+    'C:\msys64\mingw64\usr\include',
     'C:\msys64\usr\include\glib-2.0',
-    'C:\msys64\usr\lib\glib-2.0\include', 
+    'C:\msys64\usr\lib\glib-2.0\include',
     'C:\msys64\usr\include\GL',
     'C:\libsmf\include'
 ]
